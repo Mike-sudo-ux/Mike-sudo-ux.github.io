@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    align-items: center;
+    padding: 10px;
+}
+
+header input{
+    margin-right: 5px;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav{
+    width: 20%;
+    background-color: rgb(165, 205, 240);
+    border-right: 2px dashed rgb(42, 127, 255);
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    background-color: blue;
+    margin-bottom: 5px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+main{
+    width: 50%;
+    margin: 10px;
+}
+
+aside{
+    width: 20%;
+    border-left: 2px dashed rgb(42, 127, 255);
+}
+
+.text-photo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo{
+    margin: 0px 10px;
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+aside h2{
+    background-color: rgb(110, 157, 228);
+    color:rgb(0, 0, 177);
+    margin: 0;
+    padding: 10px;
+}
+
+.newstext{
+    color:rgb(0, 0, 255);
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.newstext a{
+    color: rgb(255, 0, 0);
+}
+
+.newstext span{
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(0, 89, 255);
+    color: white;
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 700px) {
+    nav, main, aside{
+        width: 100%;
+        border: none;
+        }
+    nav li{
+        text-align: center;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .text-photo{
+        flex-wrap: wrap;
+    }
+
+    .photo, .text2{
+        width: 100%;
+        border: none;
+    }
+}

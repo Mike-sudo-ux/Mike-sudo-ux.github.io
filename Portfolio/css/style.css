@@ -1,0 +1,81 @@
+body{
+    font-family: "Playpen Sans", cursive; 
+}
+main{
+    display: flex;
+    height: 100vh;
+}
+
+.my_info{
+    background-color: rgb(48, 54, 92);
+    width: 30%;
+    height: 100vh;
+    color: white;
+    padding-right: 50px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.my_info img{
+    display: flex;
+    width: 300px;
+    border-radius: 150px;
+    margin: 0 auto;
+}
+
+.my_info h2{
+    border-bottom: 1px solid white;
+}
+
+.content{
+    width: 70%;
+    padding-left: 70px;
+    padding-right: 200px;
+}
+
+.content h1, h2{
+    border-bottom: 1px solid black;
+}
+
+.content h1{
+    margin-bottom: 0;
+}
+
+.content .text{
+    padding-bottom: 50px;
+}
+
+.content .skills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.content .projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .project{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content .technologies{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content .project img{
+    width: 50px;
+}
